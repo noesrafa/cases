@@ -10,7 +10,7 @@ const Nav = ({ scrollY }) => {
         className={
           "backdrop-blur-xl fixed top-0 transition-all duration-[600ms] w-[94%] max-w-full ease-spring  mt-4 z-10 rounded-[32px]" +
           (scrollY > 30
-            ? " !bg-[#222222]/80 !max-w-[320px] sm:!max-w-[600px] rounded-full ease-spring"
+            ? " !bg-[#222222]/80 !max-w-[320px] sm:!max-w-[600px] ease-spring"
             : " bg-slate-600/0") +
           (showMenu ? " !bg-[#222222]/80 " : "")
         }
