@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import AnimatedHeading from "./components/AnimatedHeading";
 import Nav from "./components/Nav";
+import PreviewProjects from "./components/2PreviewProjects";
+import AnimatedHeading from "./components/1AnimatedHeading";
 
 const App = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -20,9 +21,10 @@ const App = () => {
   };
 
   return (
-    <div className="pt-20 px-3 sm:px-8 w-full">
+    <div className="pt-20 w-full">
       <Nav scrollY={scrollY} />
       <AnimatedHeading />
+      <PreviewProjects />
     </div>
   );
 };

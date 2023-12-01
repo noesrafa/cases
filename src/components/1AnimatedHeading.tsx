@@ -51,10 +51,10 @@ const AnimatedHeading = () => {
   //   }, []);
 
   return (
-      <div className="mt-20 font-extralight text-white/90 mx-auto w-fit whitespace-nowrap ">
+      <div className="mt-20 font-extralight text-white/90 mx-auto w-fit whitespace-nowrap h-[70vh]">
         <div className="h-[32px] sm:h-[80px] sm:pt-2 overflow-hidden">
           <div className="heading sm:pl-20 translate-y-[100px] text-2xl sm:text-[60px]">
-            I´m Rafael - a <b className="text-white serif">Multidisciplinary</b>
+            I´m Rafael — a <b className="text-white serif">Multidisciplinary</b>
           </div>
         </div>
         <div className="h-[32px] sm:h-[80px] sm:pt-2 overflow-hidden">
