@@ -7,109 +7,109 @@ gsap.registerPlugin(ScrollTrigger);
 
 const images = [
   {
-    source: `/gallery/1-1.png`,
+    source: `/gallery/1-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/2-2.png`,
+    source: `/gallery/2-2.webp`,
     size: 2,
   },
   {
-    source: `/gallery/3-4.png`,
+    source: `/gallery/3-4.webp`,
     size: 4,
   },
   {
-    source: `/gallery/5-1.png`,
+    source: `/gallery/5-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/6-4.png`,
+    source: `/gallery/6-4.webp`,
     size: 4,
   },
   {
-    source: `/gallery/7-1.png`,
+    source: `/gallery/7-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/8-1.png`,
+    source: `/gallery/8-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/9-2.png`,
+    source: `/gallery/9-2.webp`,
     size: 2,
   },
   {
-    source: `/gallery/10-1.png`,
+    source: `/gallery/10-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/11-1.png`,
+    source: `/gallery/11-1.webp`,
     size: 1,
   },
   // 2ND ROW
   {
-    source: `/gallery/12-4.png`,
+    source: `/gallery/12-4.webp`,
     size: 4,
   },
   {
-    source: `/gallery/13-1.png`,
+    source: `/gallery/13-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/14-1.png`,
+    source: `/gallery/14-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/15-1.png`,
+    source: `/gallery/15-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/16-4.png`,
+    source: `/gallery/16-4.webp`,
     size: 4,
   },
   {
-    source: `/gallery/17-1.png`,
+    source: `/gallery/17-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/18-1.png`,
+    source: `/gallery/18-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/19-2.png`,
+    source: `/gallery/19-2.webp`,
     size: 2,
   },
   {
-    source: `/gallery/20-1.png`,
+    source: `/gallery/20-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/21-4.png`,
+    source: `/gallery/21-4.webp`,
     size: 4,
   },
   //3RD ROW
   {
-    source: `/gallery/22-2.png`,
+    source: `/gallery/22-2.webp`,
     size: 2,
   },
   {
-    source: `/gallery/23-4.png`,
+    source: `/gallery/23-4.webp`,
     size: 4,
   },
   {
-    source: `/gallery/24-1.png`,
+    source: `/gallery/24-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/25-1.png`,
+    source: `/gallery/25-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/26-1.png`,
+    source: `/gallery/26-1.webp`,
     size: 1,
   },
   {
-    source: `/gallery/27-2.png`,
+    source: `/gallery/27-2.webp`,
     size: 2,
   },
 
