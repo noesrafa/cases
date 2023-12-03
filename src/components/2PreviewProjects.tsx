@@ -112,7 +112,6 @@ const images = [
     source: `/gallery/27-2.webp`,
     size: 2,
   },
-
 ];
 
 const AnimatedImage = ({ source, size = 1, idx }) => {
@@ -134,17 +133,17 @@ const AnimatedImage = ({ source, size = 1, idx }) => {
     const el = imgRef.current;
     gsap.fromTo(
       el,
-      { y: 30, opacity: 0, scale: 1 },
+      { y: 50, scale: 0.9, borderRadius: 350 },
       {
+        borderRadius: 32,
         y: 0,
-        opacity: 1,
         duration: 0.8,
         scale: 1,
         scrollTrigger: {
           trigger: el,
           start: "top 90%",
-          end: "+=200",
-          scrub: 0.5,
+          end: "+=220",
+          scrub: 0.7,
           ease: "expo.in",
         },
       }
@@ -155,41 +154,10 @@ const AnimatedImage = ({ source, size = 1, idx }) => {
 };
 
 const PreviewProjects = () => {
-  const section = useRef(null);
-
-  useLayoutEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-
-    let tl = gsap.timeline();
-
-    tl.to("body", {
-      scrollTrigger: {
-        trigger: section.current,
-        start: "top 50%",
-        end: "+=200",
-        scrub: 0.5,
-        // markers: true,
-      },
-      backgroundColor: "#757780",
-      duration: 4,
-      // scale: 1,
-    });
-
-    tl.to(section.current, {
-      scrollTrigger: {
-        trigger: section.current,
-        start: "top 70%",
-        end: "+=300",
-        scrub: 0.5,
-        // markers: true,
-      },
-      scale: 1,
-      opacity: 1,
-    });
-  }, []);
+ 
   return (
     <div className={Styles.gridWrapper}>
-      <div ref={section} className={Styles.gridContainer}>
+      <div  className={Styles.gridContainer}>
         {images.map(({ source, size }, idx) => (
           <AnimatedImage source={source} size={size} index={idx} />
         ))}

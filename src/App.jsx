@@ -3,6 +3,7 @@ import { useState } from "react";
 import Nav from "./components/Nav";
 import PreviewProjects from "./components/2PreviewProjects";
 import AnimatedHeading from "./components/1AnimatedHeading";
+import Projects from "./components/3Projects";
 
 const App = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -17,7 +18,6 @@ const App = () => {
   const handleScroll = () => {
     const scrollY = window.scrollY;
     setScrollY(scrollY);
-    console.log(scrollY);
   };
 
   return (
@@ -25,6 +25,7 @@ const App = () => {
       <Nav scrollY={scrollY} />
       <AnimatedHeading />
       <PreviewProjects />
+      <Projects />
     </div>
   );
 };

@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  height: 200vh;
-  width: 100vw;
+  min-height: 200vh;
+  width: 100%;
   background: #000000;
   color: white;
   font-family: "DM Sans", sans-serif;
@@ -12,4 +12,25 @@ body {
 
 .serif {
   font-family: "DM Serif Display", serif;
+}
+
+
+.heading {
+  font-size: 5.5vw !important;
+  line-height: 9vh;
+}
+
+.project img {
+  transition: .5s cubic-bezier(0,.69,.16,1.01);
+}
+
+.project:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+  .heading {
+    font-size: 36px !important;
+    line-height: 44px;
+  }
 }

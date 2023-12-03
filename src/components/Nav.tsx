@@ -17,13 +17,13 @@ const Nav = ({ scrollY }) => {
       >
         <div className="flex justify-between items-center px-6 sm:px-8 py-2 sm:py-3">
           <div>
-            <h4 className="font-extrabold text-lg sm:text-xl">
+            <h4 className=" sm:text-">
               Rafael Alexander
             </h4>
-            <p className="opacity-50 text-[14px] mt-[-3px]">UX/UI Engineer</p>
+            <p className="opacity-50 text-[14px] mt-[-6px]">UX/UI Engineer</p>
           </div>
           <ol className="gap-6 text-lg font-extralight hidden sm:flex">
-            <li className="opacity-60">Work</li>
+            <li className="opacity-100">Work</li>
             <li className="opacity-60">About Me</li>
             <li className="opacity-60">Contact</li>
           </ol>
