@@ -8,7 +8,7 @@ const Nav = ({ scrollY }) => {
     <div className="w-full flex justify-center">
       <nav
         className={
-          "backdrop-blur-xl fixed top-0 transition-all duration-[600ms] w-[94%] sm:w-full max-w-full  mt-4 z-10 rounded-[22px] h-14 overflow-hidden" +
+          "backdrop-blur-xl fixed top-0 transition-all duration-[600ms] w-[94%] sm:w-[96%] max-w-full  mt-4 z-10 rounded-[22px] h-14 overflow-hidden" +
           (scrollY > 30
             ? " !bg-[#1b1b1b]/60 !max-w-[320px] sm:!max-w-[600px] ease-spring"
             : " bg-slate-600/0") +
@@ -20,11 +20,11 @@ const Nav = ({ scrollY }) => {
             <h4 className=" sm:text-">Rafael Alexander</h4>
             <p className="opacity-50 text-[14px] mt-[-6px]">UX/UI Engineer</p>
           </div>
-          <ol className="gap-6 text-lg font-extralight hidden sm:flex">
+          <ol className="gap-6 text- font-extralight hidden sm:flex">
             <button className="opacity-100">Work</button>
             <button className="opacity-100">About Me</button>
-            <button className="bg-white/10 text- px-4 py-1.5 rounded-xl flex gap-2 items-center">
-              Contact <ArrowUpRight size={18} />
+            <button className="bg-white/10 text- px-4 py-1.5 rounded-xl flex gap-1 items-center hover:bg-white hover:text-black transition">
+            <ArrowUpRight size={18} />Contact 
             </button>
           </ol>
           <div className=" sm:hidden flex gap-4 items-center">
