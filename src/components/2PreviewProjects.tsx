@@ -133,7 +133,7 @@ const AnimatedImage = ({ source, size = 1, idx }) => {
     const el = imgRef.current;
     gsap.fromTo(
       el,
-      { x: -50, scale: 0.9, borderRadius: 350 },
+      { x: -30, scale: 0.9, borderRadius: 350 },
       {
         borderRadius: 32,
         x: 0,

@@ -10,9 +10,9 @@ const Nav = ({ scrollY }) => {
         className={
           "backdrop-blur-xl fixed top-0 transition-all duration-[600ms] w-[94%] sm:w-full max-w-full  mt-4 z-10 rounded-[22px] h-14 overflow-hidden" +
           (scrollY > 30
-            ? " !bg-[#080808]/60 !max-w-[320px] sm:!max-w-[600px] ease-spring"
+            ? " !bg-[#131313]/60 !max-w-[320px] sm:!max-w-[600px] ease-spring"
             : " bg-slate-600/0") +
-          (showMenu ? " !bg-[#080808]/80 h-[232px] sm:h-14" : "")
+          (showMenu ? " !bg-[#131313]/80 h-[232px] sm:h-14" : "")
         }
       >
         <div className="flex justify-between items-center px-6 sm:px-8 py-2">

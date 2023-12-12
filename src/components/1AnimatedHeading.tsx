@@ -20,7 +20,7 @@ const AnimatedHeading = () => {
   }, []);
 
   return (
-    <div className="heading px-4 sm:px-8 mt-48 mb-8 font-extralight text-white h">
+    <div className="heading px-6 sm:px-8 mt-48 mb-8 font-extralight text-white h">
       <h1 className="text-[#C3DAF9] font-semibold mb-4 sm:mb-0">Joyful experiences. Made with meaning.</h1>
       <div className="w-full h-[1px] bg-slate-400/20 mt-2 mb-4"/>
       <p className="text-lg pb-14">
