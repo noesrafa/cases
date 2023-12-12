@@ -20,11 +20,11 @@ const AnimatedHeading = () => {
   }, []);
 
   return (
-    <div className="heading px-6 sm:px-8 mt-48 mb-8 font-extralight text-white h">
-      <h1 className="text-[#C3DAF9] font-semibold mb-4 sm:mb-0">Joyful experiences. Made with meaning.</h1>
+    <div className="heading px-6 sm:px-8 mt-52 mb-8 font-extralight text-white h">
+      <h1 className=" mb-4 sm:mb-0 font-">Joyful experiences. Made with meaning.</h1>
       <div className="w-full h-[1px] bg-slate-400/20 mt-2 mb-4"/>
-      <p className="text-lg pb-14">
-        I'm a UX/UI Engineer based in the Philippines. I design and build
+      <p className="text-lg pb-14 opacity-80">
+        I'm a UX/UI Engineer based in Mexico City. I design and build
         websites and applications that are intuitive, accessible, and
         user-friendly.
       </p>
