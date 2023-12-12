@@ -20,15 +20,14 @@ const AnimatedHeading = () => {
   }, []);
 
   return (
-    <div className="mt-32 font-extralight text-white/90 h-[55vh] sm:h-[60vh]">
-      <div className="heading mx-8 sm:mx-32">
-        <div className="w-0 sm:w-20 h-2 inline-block"/> I´m Rafael — a <b className="text-white ">Multidisciplinary <br className="hidden sm:inline-block" /> designer</b>{" "}
-        with focus on Motion,<br className="hidden sm:inline-block"/> interactive design and develop
-      </div>
-      <button className="btn opacity-0 translate-y-[10px]  mt-6 flex gap-2 items-center">
-        <div className="w-1 h-1 bg-white rounded-full" />
-        Read my story
-      </button>
+    <div className="heading px-4 sm:px-8 mt-48 mb-8 font-extralight text-white h">
+      <h1 className="text-[#C3DAF9] font-semibold mb-4 sm:mb-0">Joyful experiences. Made with meaning.</h1>
+      <div className="w-full h-[1px] bg-slate-400/20 mt-2 mb-4"/>
+      <p className="text-lg pb-14">
+        I'm a UX/UI Engineer based in the Philippines. I design and build
+        websites and applications that are intuitive, accessible, and
+        user-friendly.
+      </p>
     </div>
   );
 };
